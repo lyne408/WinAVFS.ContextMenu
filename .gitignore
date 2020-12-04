@@ -1,0 +1,75 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS generated files
+*.log
+*.tlog
+*.pdb
+*.ipdb
+*.pch
+*.ipch
+*.user
+*.db
+x64
+packages
+
+*/**/.vs
+*/**/x64_v140
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
+*/**/x86/Debug
+*/**/x86/Release
+*/**/x64/Debug
+*/**/x64/Release
+*/**/Win32/Debug
+*/**/Win32/Release
+*/**/Release
+*/**/Debug
+*.sdf
+*_i.c
+*_i.h
+*_p.c
+*.ipch
+*.suo
+*.suo
+*.ipch
+
+*/**/x64_v140/Debug
+*/**/x64_v140/Release
+
+
+# lyne408 preference
+_releases
+

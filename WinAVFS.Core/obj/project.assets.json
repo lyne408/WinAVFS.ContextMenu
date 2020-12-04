@@ -1,0 +1,191 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "7z.Libs/19.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net/_._": {}
+        },
+        "runtime": {
+          "lib/net/_._": {}
+        },
+        "build": {
+          "build/net/7z.Libs.targets": {}
+        }
+      },
+      "DokanNet/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net46/DokanNet.dll": {}
+        },
+        "runtime": {
+          "lib/net46/DokanNet.dll": {}
+        },
+        "resource": {
+          "lib/net46/de/DokanNet.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net46/fr/DokanNet.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net46/sv/DokanNet.resources.dll": {
+            "locale": "sv"
+          }
+        }
+      },
+      "Squid-Box.SevenZipSharp/1.3.283": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SevenZipSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SevenZipSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "7z.Libs/19.0.2": {
+      "sha512": "PwMwDih5MFgl8sHZnotMU1hVJ8r2x+TfJbZ598muX/DSbLdCSvPT2ivqUeDzY6Zay6FpiH6chKez9RRlSIw1GA==",
+      "type": "package",
+      "path": "7z.libs/19.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        ".version",
+        "3rd-party-NOTICES.txt",
+        "7z.libs.19.0.2.nupkg.sha512",
+        "7z.libs.nuspec",
+        "License.txt",
+        "Readme.md",
+        "bin/License.7za-7zxa.txt",
+        "bin/License.txt",
+        "bin/x64/7z.dll",
+        "bin/x64/7za.dll",
+        "bin/x64/7zxa.dll",
+        "bin/x86/7z.dll",
+        "bin/x86/7za.dll",
+        "bin/x86/7zxa.dll",
+        "build-info.txt",
+        "build/native/7z.Libs.targets",
+        "build/net/7z.Libs.targets",
+        "build/netcoreapp/7z.Libs.targets",
+        "build/netstandard/7z.Libs.targets",
+        "changelog.txt",
+        "lib/net/_._",
+        "lib/netcoreapp/_._",
+        "lib/netstandard/_._",
+        "tools/7z.Libs.nuspec",
+        "tools/gnt.bat",
+        "tools/hMSBuild.bat"
+      ]
+    },
+    "DokanNet/1.4.0": {
+      "sha512": "z9lSSAbOVWdXarAIxuWtmQRNX6/8RKIcBgkhCR4rS4KnVD6PFR1JuogcpKdiz9HH8DI8m+F3UhXFT0VdeNJ57A==",
+      "type": "package",
+      "path": "dokannet/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dokan_logo.png",
+        "dokannet.1.4.0.nupkg.sha512",
+        "dokannet.nuspec",
+        "lib/net40/DokanNet.dll",
+        "lib/net40/de/DokanNet.resources.dll",
+        "lib/net40/fr/DokanNet.resources.dll",
+        "lib/net40/sv/DokanNet.resources.dll",
+        "lib/net46/DokanNet.dll",
+        "lib/net46/de/DokanNet.resources.dll",
+        "lib/net46/fr/DokanNet.resources.dll",
+        "lib/net46/sv/DokanNet.resources.dll",
+        "lib/netstandard1.3/DokanNet.dll",
+        "lib/netstandard1.3/de/DokanNet.resources.dll",
+        "lib/netstandard1.3/fr/DokanNet.resources.dll",
+        "lib/netstandard1.3/sv/DokanNet.resources.dll",
+        "lib/netstandard2.0/DokanNet.dll",
+        "lib/netstandard2.0/de/DokanNet.resources.dll",
+        "lib/netstandard2.0/fr/DokanNet.resources.dll",
+        "lib/netstandard2.0/sv/DokanNet.resources.dll"
+      ]
+    },
+    "Squid-Box.SevenZipSharp/1.3.283": {
+      "sha512": "02H4QgTSf4dWs0agsfw+L3uPWR7YrwdVXJwFYnAq5KStGHL0dKBHPY2w0lpFBbSJqFSPMxiaXUB6i5d9DJgNVw==",
+      "type": "package",
+      "path": "squid-box.sevenzipsharp/1.3.283",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SevenZipSharp.dll",
+        "lib/netstandard2.0/SevenZipSharp.dll",
+        "license",
+        "squid-box.sevenzipsharp.1.3.283.nupkg.sha512",
+        "squid-box.sevenzipsharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6": [
+      "7z.Libs >= 19.0.2",
+      "DokanNet >= 1.4.0",
+      "Squid-Box.SevenZipSharp >= 1.3.283"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lyne\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\WinAVFS.Core.csproj",
+      "projectName": "WinAVFS.Core",
+      "projectPath": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\WinAVFS.Core.csproj",
+      "packagesPath": "C:\\Users\\lyne\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net46"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net46": {
+          "targetAlias": "net46",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net46": {
+        "targetAlias": "net46",
+        "dependencies": {
+          "7z.Libs": {
+            "target": "Package",
+            "version": "[19.0.2, )"
+          },
+          "DokanNet": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "Squid-Box.SevenZipSharp": {
+            "target": "Package",
+            "version": "[1.3.283, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
