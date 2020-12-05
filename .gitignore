@@ -42,7 +42,7 @@
 *.db
 x64
 packages
-
+.vs
 */**/.vs
 */**/x64_v140
 */**/bin/Debug

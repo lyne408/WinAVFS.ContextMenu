@@ -72,10 +72,16 @@ namespace WinAVFS.Utils
             RegistryKey commandKey = shellItemKey.CreateSubKey("command");
 
             /*
-             like default value of Computer\HKEY_CLASSES_ROOT\*\shell\VSCode\command:
+            [lyne]  不确定是不是这样...
+
+            直接拖动 文件 到程序上, 如果 该文件的路径 包含空格, 实际效果等价于 Win 10 自动 在路径两边 添加 "".
+            但是如果是以 注册表添加的右键菜单 的方式打开, Win 10 不会自动添加. 
+            所以参数要用引号引起来.是 "%1", 而非 %1. 
+
+            like default value of Computer\HKEY_CLASSES_ROOT\*\shell\VSCode\command:
                 "C:\Program Files\Microsoft VS Code\Code.exe" "%1"
             */
-            commandKey.SetValue(string.Empty, $"\"{this.ExecutableFilePath}\" %1");
+            commandKey.SetValue(string.Empty, $"\"{this.ExecutableFilePath}\" \"%1\"");
 
             commandKey.Close();
             shellItemKey.Close();

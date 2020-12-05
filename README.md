@@ -82,7 +82,15 @@ WinAVFS.CLI.exe "path=D:\test.7z" "password=0123" "mount_point=D:\test"
 
 ## Tips 提示
 
-1. 可能无法挂载 .iso, 似乎 DokanNet 不支持这种文件系统. 
+- **Don't mount large archive, especially encrypted. 不要挂载大文件, 特别是加密的.**
+
+	Because WinAVFS use memory file system.
+	
+	因为 WinAVFS 使用内存文件夹系统.
+
+- 为了性能, 使用 "存储" 级别的压缩. 使用 compact.exe(文件系统层级的压缩) 减少文件占用的空间.
+
+- 可能无法挂载 .iso, 似乎 DokanNet 不支持这种文件系统. 
 
 	挂载 Windows 10 官方镜像,  cn_windows_10_business_editions_version_2004_updated_sep_2020_x64_dvd_7134ba4b.iso 时, 遇到问题.
 	7-Zip.exe 程序可以正常打开.
@@ -94,4 +102,4 @@ WinAVFS.CLI.exe "path=D:\test.7z" "password=0123" "mount_point=D:\test"
 	```
 	
 	
-2. 对于 `.tgz` 这种双重压缩的, 一般来没有必要挂载, 所以不单独处理双重压缩的.
+- 对于 `.tgz` 这种双重压缩的, 一般来没有必要挂载, 所以不单独处理双重压缩的.

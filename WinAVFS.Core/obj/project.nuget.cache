@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YS4ZFnBprlll430codNagVfFYeo7VHnumxrAWKoQPjTwsZHLR9hhMpEfsnvT2lBfpEsawkKCZ5y2uiK5TGCp3g==",
+  "dgSpecHash": "U86NY0QwCyyVihMbngv3nnLoXcwzcb2geQesgPkz+Wx/I3aM7OtYHftL7X4b6Gu6fIsJIwJv9ECQ/tEYFereEA==",
   "success": true,
-  "projectFilePath": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\WinAVFS.Core.csproj",
+  "projectFilePath": "D:\\Workspaces\\Visual_Studio\\WinAVFS.ContextMenu\\WinAVFS.Core\\WinAVFS.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lyne\\.nuget\\packages\\7z.libs\\19.0.2\\7z.libs.19.0.2.nupkg.sha512",
     "C:\\Users\\lyne\\.nuget\\packages\\dokannet\\1.4.0\\dokannet.1.4.0.nupkg.sha512",

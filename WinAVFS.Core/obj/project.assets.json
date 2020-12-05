@@ -138,11 +138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\WinAVFS.Core.csproj",
+      "projectUniqueName": "D:\\Workspaces\\Visual_Studio\\WinAVFS.ContextMenu\\WinAVFS.Core\\WinAVFS.Core.csproj",
       "projectName": "WinAVFS.Core",
-      "projectPath": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\WinAVFS.Core.csproj",
+      "projectPath": "D:\\Workspaces\\Visual_Studio\\WinAVFS.ContextMenu\\WinAVFS.Core\\WinAVFS.Core.csproj",
       "packagesPath": "C:\\Users\\lyne\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspaces\\Visual_Studio\\WinAVFS-master\\WinAVFS.Core\\obj\\",
+      "outputPath": "D:\\Workspaces\\Visual_Studio\\WinAVFS.ContextMenu\\WinAVFS.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
